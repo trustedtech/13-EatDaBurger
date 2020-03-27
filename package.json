@@ -1,0 +1,27 @@
+{
+  "name": "13-eatdaburger",
+  "version": "1.0.0",
+  "description": "An exercise in creating ORMs and using Handlebars!",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustedtech/13-EatDaBurger.git"
+  },
+  "author": "BAK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trustedtech/13-EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/trustedtech/13-EatDaBurger#readme"
+}
