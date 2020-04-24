@@ -18,10 +18,10 @@ router.post('/add', function(req, res) {
 });
   
 // Update status of existing burger
-router.put("/update/:id", function(req, res) {
-    burger.update(req.params.id, function(result) {
+router.post('/update', function(req, res) {
+    burger.update(req.body.burger_id, function(result) {
         console.log(result);
-        res.sendStatus(200);
+        res.redirect('/');
     });
 });
   

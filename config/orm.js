@@ -43,11 +43,10 @@ const orm = {
 function printQs(num) {
     const Qs = [];
 
-    num.forEach(() => Qs.push("?"));
-    // for (let i = 0; i < num; i++) {
-    //     Qs.push("?");
-    // }
-    // return Qs.toString();
+    for (let i = 0; i < num; i++) {
+        Qs.push("?");
+    }
+    return Qs.toString();
 }
 
 // Converts raw data into an SQL query string with proper syntax 
