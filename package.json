@@ -4,7 +4,7 @@
   "description": "An exercise in creating ORMs and using Handlebars!",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^4.0.0",
     "mysql2": "^2.1.0",
     "minimist": ">=0.2.1"
